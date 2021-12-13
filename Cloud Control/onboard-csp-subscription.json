@@ -35,24 +35,6 @@
      "principalIdDisplayName": "Managed Cloud Control"
     }
    ]
-  },
-  "eligibleAuthorizations": {
-   "type": "array",
-   "metadata": {
-    "description": "Provide the auhtorizations that will have just-in-time role assignments on customer environments with support for approvals from the managing tenant"
-   },
-   "defaultValue": [
-    {
-     "justInTimeAccessPolicy": {
-      "multiFactorAuthProvider": "Azure",
-      "maximumActivationDuration": "PT2H",
-      "managedByTenantApprovers": []
-     },
-     "principalId": "d37e57c6-7ed2-45ee-b7d8-c653b26698e0",
-     "principalIdDisplayName": "Managed Cloud Control",
-     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
-    }
-   ]
   }
  },
  "variables": {
