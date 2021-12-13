@@ -14,7 +14,7 @@
    "metadata": {
     "description": "Name of the Managed Service Provider offering"
    },
-   "defaultValue": "The Xpirit Cloud Control CSP Subscription. Fully compliant"
+   "defaultValue": "The Xpirit Cloud Control CSP Subscription. Fully compliant and secure by default"
   },
   "managedByTenantId": {
    "type": "string",
