@@ -14,7 +14,7 @@
    "metadata": {
     "description": "Name of the Managed Service Provider offering"
    },
-   "defaultValue": "Xpirit Cloud Control is a free of charge service where Xpirit provides control of the cloud through Cost Management, monthly suggested imrpvoments, Security and Compliance guardrails through policies and technical assistance through as a Cloud Solution Provider!"
+   "defaultValue": "Xpirit Cloud Control is a free of charge service where Xpirit provides control of the cloud through Cost Management, monthly suggested improvements, Security and Compliance guardrails through policies and technical assistance through as a Cloud Solution Provider!"
   },
   "managedByTenantId": {
    "type": "string",
