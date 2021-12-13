@@ -1,20 +1,12 @@
 # Azure-Lighthouse-Offerings
-The Xpirit Azure Lighthouse offerings
 
+Welcome to the Xpirit Ligthouse offerings. In here you will find our offerings that can be installed by just clicking on the "Deploy To Azure" button and configuring the steps.
 
+# Cloud Control
 
-# Microsoft Azure Lighthouse
+Xpirit Cloud Control gives our customer control over their cloud environment free of charge. Taking control of the Cloud means that you look after your costs and be as effective as possible. Additionally we offer access to our **Experts** on a monthly basis. With over 50 people, that are each a expert in there field and about 20 MVPs. Throughout the lifecycle of your Cloud we also take a look at your Security & Commpliance.
 
-Azure Lighthouse provides capabilities to perform cross-tenant management at scale.  We do this by providing you the ability to view and manage multiple customers from a single context. When you log into Azure, you can see all of your customers who you are managing through Azure Lighthouse. [Learn more](https://azure.com/lighthouse).
-
-This repository contains samples to help you use Azure Resource Manager to configure [Azure delegated resource management](https://docs.microsoft.com/azure/lighthouse/concepts/azure-delegated-resource-management) and to configure monitoring and management of customer environments.
-
-The templates shown below can be used to [onboard a customer to Azure Lighthouse](https://docs.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer). You can deploy these manually, or use the "Deploy to Azure" buttons to deploy directly in the Azure portal.
-# Deploy to Azure buttons
-
-Name | Description   | Auto-deploy   | Manual deploy |
------| ------------- |--------------- |------- 
-| Azure Lighthouse - Subscription Deployment |onboard a *subscription* | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FXpiritBV%2FAzure-Lighthouse-Offerings%2Fmain%2FCloud%20Control%2Fonboard-csp-subscription.json) | [templates](https://github.com/XpiritBV/Azure-Lighthouse-Offerings/tree/main/Cloud%20Control)
+ [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FXpiritBV%2FAzure-Lighthouse-Offerings%2Fmain%2FCloud%20Control%2Fonboard-csp-subscription.json) 
 
 
 
