@@ -10,3 +10,8 @@ Xpirit Cloud Control helps you stay in control over your cloud environments for 
 
 
 
+# Minimal CSP Support
+
+CSP Support only? We got you covered. Just install the following template and we have the minimum set of requirements needed to support you as a CSP customer
+
+ [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FXpiritBV%2FAzure-Lighthouse-Offerings%2Fmain%2FCSP%2Fminimal_csp_support.json) 
