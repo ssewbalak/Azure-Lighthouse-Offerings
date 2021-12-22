@@ -30,7 +30,7 @@
    },
    "defaultValue": [
     {
-     "principalId": "2a64eaa5-774d-4c3b-998e-a3712d7c678b",
+     "principalId": "d3c2b4cd-03bf-46c1-96ab-36510f26dacb",
      "roleDefinitionId": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e",
      "principalIdDisplayName": "Xpirit CSP operators"
     }
@@ -48,12 +48,12 @@
       "maximumActivationDuration": "PT2H",
       "managedByTenantApprovers": [
        {
-        "principalId": "2a64eaa5-774d-4c3b-998e-a3712d7c678b",
+        "principalId": "d3c2b4cd-03bf-46c1-96ab-36510f26dacb",
         "principalIdDisplayName": "Xpirit CSP operators"
        }
       ]
      },
-     "principalId": "2a64eaa5-774d-4c3b-998e-a3712d7c678b",
+     "principalId": "d3c2b4cd-03bf-46c1-96ab-36510f26dacb",
      "principalIdDisplayName": "Xpirit CSP operators",
      "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
     }
