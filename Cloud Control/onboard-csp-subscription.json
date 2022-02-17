@@ -7,14 +7,14 @@
    "metadata": {
     "description": "Specify a unique name for your offer"
    },
-   "defaultValue": "Xpirit Cloud Control"
+   "defaultValue": "MS installation"
   },
   "mspOfferDescription": {
    "type": "string",
    "metadata": {
     "description": "Name of the Managed Service Provider offering"
    },
-   "defaultValue": "Xpirit Cloud Control is a free of charge service where Xpirit provides control of the cloud through Cost Management, monthly suggested improvements, Security and Compliance guardrails through policies and technical assistance through as a Cloud Solution Provider!"
+   "defaultValue": "installation"
   },
   "managedByTenantId": {
    "type": "string",
@@ -30,19 +30,27 @@
    },
    "defaultValue": [
     {
-     "principalId": "d37e57c6-7ed2-45ee-b7d8-c653b26698e0",
+     "principalId": "9bb36d98-431b-4445-90da-d197dc6e491a",
      "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-     "principalIdDisplayName": "Managed Cloud Control"
-    },
+     "principalIdDisplayName": "Suraj Sewbalak"
+    }
+   ]
+  },
+  "eligibleAuthorizations": {
+   "type": "array",
+   "metadata": {
+    "description": "Provide the auhtorizations that will have just-in-time role assignments on customer environments with support for approvals from the managing tenant"
+   },
+   "defaultValue": [
     {
-     "principalId": "d37e57c6-7ed2-45ee-b7d8-c653b26698e0",
-     "roleDefinitionId": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e",
-     "principalIdDisplayName": "Managed Cloud Control"
-    },
-    {
-     "principalId": "d37e57c6-7ed2-45ee-b7d8-c653b26698e0",
-     "roleDefinitionId": "fa23ad8b-c56e-40d8-ac0c-ce449e1d2c64",
-     "principalIdDisplayName": "Managed Cloud Control"
+     "justInTimeAccessPolicy": {
+      "multiFactorAuthProvider": "Azure",
+      "maximumActivationDuration": "PT8H",
+      "managedByTenantApprovers": []
+     },
+     "principalId": "9bb36d98-431b-4445-90da-d197dc6e491a",
+     "principalIdDisplayName": "Suraj Sewbalak",
+     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
     }
    ]
   }
@@ -60,7 +68,8 @@
     "registrationDefinitionName": "[parameters('mspOfferName')]",
     "description": "[parameters('mspOfferDescription')]",
     "managedByTenantId": "[parameters('managedByTenantId')]",
-    "authorizations": "[parameters('authorizations')]"
+    "authorizations": "[parameters('authorizations')]",
+    "eligibleAuthorizations": "[parameters('eligibleAuthorizations')]"
    }
   },
   {
@@ -83,6 +92,10 @@
   "authorizations": {
    "type": "array",
    "value": "[parameters('authorizations')]"
+  },
+  "eligibleAuthorizations": {
+   "type": "array",
+   "value": "[parameters('eligibleAuthorizations')]"
   }
  }
 }
